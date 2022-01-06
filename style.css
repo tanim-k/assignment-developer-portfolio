@@ -1,0 +1,78 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+    background-image: radial-gradient(HoneyDew, Gainsboro);
+    background-position: center;
+}
+.any-color{
+    color: rgba(58, 106, 238, 0.849);
+    font-weight: 580;
+}
+.left-border{
+    border-left-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(rgb(91, 90, 141), tomato);
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    border-style: groove;
+    border-image-source: linear-gradient(red, purple);
+    border-width: thin;
+    border-image-slice: 1;
+    padding: 5px 10px;
+    background-image: radial-gradient(Lavender, LightBlue );
+}
+.first-portion{
+    display: flex;
+}
+.first-portion img{
+    width: 70%;
+}
+.padding-left-img{
+    padding-left: 30%;
+}
+.second-portion{
+    text-align: center;
+    text-emphasis-style: filled blue;
+    font-weight: 900;
+    font-size: xx-large;
+    padding-top: 10ox;
+}
+.third-portion img{
+    width: 30%;
+    text-align: justify;
+}
+.third-portion{
+    
+    width: 100%;
+    text-align: justify;
+}
+.third-one{
+    float:left;
+    background-color: rgb(196, 168, 214);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.third-two{
+    float:left;
+    background-color: rgba(192, 196, 194, 0.733);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.third-three{
+    float:left;
+    background-color: rgba(148, 218, 116, 0.849);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
