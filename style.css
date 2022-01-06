@@ -1,0 +1,166 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+    background-image: radial-gradient(rgb(147, 210, 214), rgb(212, 107, 107));
+    background-position: center;
+}
+.any-color{
+    color: rgba(58, 106, 238, 0.849);
+    font-weight: 580;
+}
+.left-border{
+    border-left-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(cyan, snow);
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    border-style: groove;
+    border-image-source: linear-gradient(red, purple);
+    border-width: thin;
+    border-image-slice: 1;
+    padding: 5px 10px;
+    background-image: radial-gradient(Lavender, LightBlue );
+}
+.first-portion{
+    display: flex;
+}
+.first-portion img{
+    width: 60%;
+}
+.padding-left-img{
+    padding-left: 30%;
+}
+.second-portion{
+    text-align: center;
+    text-emphasis-style: filled blue;
+    font-weight: 900;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+.third-portion img{
+    width: 30%;
+    text-align: justify;
+}
+.third-portion{
+    
+    width: 100%;
+    text-align: justify;
+    border-image-source: linear-gradient(lime, skyblue);
+    border-image-slice: 1;
+    border-left-width: 10px;
+}
+.third-one{
+    float:left;
+    background-color: rgb(196, 168, 214);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.third-two{
+    float:left;
+    background-color: rgba(192, 196, 194, 0.733);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.third-three{
+    float:left;
+    background-color: rgba(148, 218, 116, 0.849);
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.fourth-portion{
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    width: 100%;
+    display: inline-flex;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 60px;
+    padding-bottom: 7px;
+}
+.fourth-portion img{
+    width:60%;
+    padding-left: 110px;
+    padding-top: 30px;
+}
+.fifth-portion{
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    display: inline-flex;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+.fifth-portion img{
+    width: 70%;
+    padding-right: 10px;
+    padding-bottom:20px;
+    height: 65%;
+    padding-top: 10%;
+}
+.fifth-box{
+    padding-left: 140px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    
+}
+#fifth-box-another-bc{
+    background-image: url(images/shapes/shape-5.png);
+    background-image:linear-gradient(burlywood, lightyellow);
+    border-radius: 10px;
+    background-size: 35%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 30px;    
+}
+.sixth-portion{
+    width: 100%;
+    background-image: linear-gradient(HotPink, MediumBlue );
+    padding-top: 30px;
+    text-align: center;
+    border-image-source: radial-gradient(rgb(202, 197, 196), chocolate);
+    border-top: 15px solid;
+    border-image-slice: 1;
+    border-radius: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.sixth-portion img{
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 13px;
+}
+.last-portion{
+    background-image: linear-gradient(Aquamarine, BurlyWood);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 13px;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#small-text{
+    
+    text-decoration-color: cornsilk;
+}
